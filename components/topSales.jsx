@@ -16,9 +16,9 @@ export default function TABLE_TOP_SALSES (){
 
     return(
         <div>
-            <div className='content-center'>
-                <h2 className={styles.title}>
-                TOP SALES
+            <div className='pt-10 pb-3 text-center text-slate-500 text-2xl ...'>
+                <h2>
+                    TOP SALES
                 </h2>
             </div>
             {/** tabella con tailwind (grafica da sistemare)

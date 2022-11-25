@@ -16,8 +16,8 @@ export default function TABLE_LAST_FOR_SALE (){
 
     return(
         <div>
-            <div className='content-center'>
-                <h2 className={styles.title}>
+            <div className='pt-10 pb-3 text-center text-slate-500 text-2xl border-t border-slate-100'>
+                <h2>
                     LAST FOR SALES
                 </h2>
             </div>

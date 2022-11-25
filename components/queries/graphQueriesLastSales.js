@@ -5,7 +5,7 @@ import {gql} from "@apollo/client"
 const GET_LAST_SALES = gql
 `
     {
-        transfers(first: 10) {
+        transfers(orderBy:  blockTimestamp, orderDirection: desc ,first: 25) {
             id
             tokenId
             from

@@ -12,16 +12,18 @@ export default function Home() {
     <div className={styles.container}>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          overland analysis
-        </h1>
+        <div className='px-4 py-4'>
+          
+          <h1 className="p-5 border-b-2 text-center text-4xl text-blue-900 uppercase">
+            overland analysis
+          </h1>
+        
+          <TABLE_TOP_SALSES/>
 
-        <TABLE_TOP_SALSES/>
+          <TABLE_LAST_FOR_SALE/>
 
-        <TABLE_LAST_FOR_SALE/>
-
-        <TABLE_LAST_SALES/>
-
+          <TABLE_LAST_SALES/>
+        </div>
       </main>
     </div>
   )

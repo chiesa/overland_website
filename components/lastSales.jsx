@@ -16,9 +16,9 @@ export default function TABLE_LAST_SALSES (){
 
     return(
         <div>
-            <div className='content-center'>
-                <h2 className={styles.title}>
-                LAST SALES
+            <div className='pt-10 pb-3 text-center text-slate-500 text-2xl border-t border-slate-100'>
+                <h2>
+                    LAST SALES
                 </h2>
             </div>
             
